@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var height: UILabel!
     @IBOutlet weak var weight: UILabel!
     
+    @IBOutlet weak var heightSlider: UISlider!
+    @IBOutlet weak var weightSlider: UISlider!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -24,5 +26,10 @@ class ViewController: UIViewController {
         weight.text = String(format: "%dkg", Int(sender.value))
     }
     
+    @IBAction func calculatePressed(_ sender: UIButton) {
+        let h = heightSlider.value
+        let w = weightSlider.value
+        print(w/pow(h,2))
+    }
 }
 
