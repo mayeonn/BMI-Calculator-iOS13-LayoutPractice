@@ -15,6 +15,8 @@
 		AD0B9FAB230D64B50065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9FA9230D64B50065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359C2312D0DA00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD64359B2312D0DA00E22B00 /* README.md */; };
 		D782F53E2AD6957D004E36B5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782F53D2AD6957D004E36B5 /* ResultViewController.swift */; };
+		D7BDC57D2ADE77E100D78731 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDC57C2ADE77E100D78731 /* BMI.swift */; };
+		D7BDC57F2ADE77F100D78731 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDC57E2ADE77F100D78731 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AD0B9FAC230D64B50065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD64359B2312D0DA00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D782F53D2AD6957D004E36B5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		D7BDC57C2ADE77E100D78731 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = SOURCE_ROOT; };
+		D7BDC57E2ADE77F100D78731 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		AD0B9FB4230D64F70065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D7BDC57C2ADE77E100D78731 /* BMI.swift */,
+				D7BDC57E2ADE77F100D78731 /* CalculatorBrain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BDC57F2ADE77F100D78731 /* CalculatorBrain.swift in Sources */,
+				D7BDC57D2ADE77E100D78731 /* BMI.swift in Sources */,
 				D782F53E2AD6957D004E36B5 /* ResultViewController.swift in Sources */,
 				AD0B9FA3230D64B30065EFD9 /* CalculateViewController.swift in Sources */,
 				AD0B9F9F230D64B30065EFD9 /* AppDelegate.swift in Sources */,
